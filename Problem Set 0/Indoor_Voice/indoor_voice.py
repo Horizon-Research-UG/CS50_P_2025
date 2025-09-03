@@ -68,6 +68,7 @@ abstand()
 # funktioniert - sieht aber nicht schön aus 
 
 """
+"""
 
 # Versuch 4
 
@@ -81,3 +82,70 @@ a()
 a() * 2
 
 # abgedriftet -> versuch funktionen erst sinnvoll zu bennen und definieren und dann später einfacher (mit weniger tippen) nutzten zu können
+
+"""
+
+
+# Versuch 5
+
+
+
+#############################
+#############################
+
+
+## Abstand
+
+
+def abstand():
+    print("\n" * 2)
+# definiert abstand für Terminal
+
+a = abstand
+# kürzt die Funktion, um einfacher zu schreiben
+
+#####################################################
+
+
+## text holen
+
+
+text = input("Was möchtest du eingeben? :     ---->     : ")
+# packt den string aus der Input frage in die Variable text
+
+t = text
+#kürzen
+
+
+###########################
+
+
+## Text klein schreiben
+
+
+indoor_Voice = t.lower()
+# text klein schreiben
+
+iv = indoor_Voice
+#kürzen
+
+
+
+#############################
+
+## drucken
+
+#print(iv)
+# druckt die iv
+
+
+
+#################
+
+
+## was eigenes ergänzen
+
+
+print("deine geflüstere Eingabe ist: ----> " +  iv)
+
+
